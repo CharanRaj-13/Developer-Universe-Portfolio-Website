@@ -1,0 +1,53 @@
+export const projects = [
+  {
+    title: 'Mini SIEM',
+    visual: 'siem',
+    description: 'A firewall-log monitoring project that collects UFW events over SSH, applies rule-based classification, raises severity alerts, and presents event and trend summaries in a dashboard.',
+    technologies: ['React', 'Python', 'Flask', 'REST APIs', 'JWT', 'SQLite', 'SSH', 'GeoIP'],
+    repositoryUrl: 'https://github.com/CharanRaj-13/MiniSIEM-A-Firewall-Log-Analysis-And-Security-Monitoring-System',
+    publicationUrl: 'https://www.ijrtmr.com/archives/minisiem-a-log-analysis-security-monitoring-system',
+  },
+  {
+    title: "Pentester's Mobile Toolkit",
+    visual: 'mobile',
+    description: 'An Android-oriented security assessment toolkit with a Flutter app and Python/FastAPI backend. The repository includes port scanning, DNS lookup, SSL/TLS analysis, ping, traceroute, WHOIS, and subdomain utilities.',
+    technologies: ['Flutter', 'Dart', 'Python', 'FastAPI', 'Firebase', 'Firestore', 'Google Sign-In'],
+    repositoryUrl: 'https://github.com/CharanRaj-13/Pentesters-Mobile-Toolkit',
+  },
+  {
+    title: 'Hand Gesture Based Control',
+    visual: 'gesture',
+    description: 'A webcam-based hand-gesture system for controlling volume, brightness, and mouse actions. The project uses different hand gestures for desktop controls and documents Windows-specific audio support.',
+    technologies: ['Python', 'OpenCV', 'MediaPipe', 'NumPy', 'Pycaw', 'screen_brightness_control', 'PyAutoGUI'],
+    repositoryUrl: 'https://github.com/CharanRaj-13/Gesture-Control',
+  },
+  {
+    title: 'Real Time Chat Application',
+    visual: 'chat',
+    description: 'A tutorial-based real-time messaging application built with a React client and Node.js server, using Socket.IO, Redux Toolkit, and MongoDB.',
+    technologies: ['React', 'Node.js', 'Socket.IO', 'Redux Toolkit', 'MongoDB'],
+    repositoryUrl: 'https://github.com/CharanRaj-13/chat-app-9hr',
+  },
+  {
+    title: 'Image Metadata Viewer',
+    visual: 'metadata',
+    description: 'A Python desktop app for inspecting file and image properties, EXIF tags, and embedded GPS data when available. Reverse geocoding uses Nominatim and requires internet access.',
+    technologies: ['Python', 'Tkinter', 'Pillow', 'geopy'],
+    repositoryUrl: 'https://github.com/CharanRaj-13/Image-Metadata-Viewer',
+    note: 'Location lookup sends the available coordinates to Nominatim; location names may be approximate.',
+  },
+  {
+    title: 'Indian Currency Classification',
+    visual: 'currency',
+    description: 'A browser-based image classifier that loads a Teachable Machine model, predicts from an uploaded image, and displays prediction scores. The interface includes light/dark themes and denomination audio feedback.',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'TensorFlow.js', 'Teachable Machine'],
+    repositoryUrl: 'https://github.com/CharanRaj-13/Indian-Currency-Detector',
+  },
+  {
+    title: 'Attendance Management System',
+    visual: 'attendance',
+    description: 'A web-based attendance application with a React frontend, Node.js/Express backend, and MySQL database. Its README describes account signup/login and dashboard-based attendance management.',
+    technologies: ['React', 'Node.js', 'Express', 'MySQL', 'XLSX'],
+    repositoryUrl: 'https://github.com/CharanRaj-13/Attendance_Sys_v0.4',
+  },
+]
